@@ -43,7 +43,7 @@ for (let i = 1; i <= 22; i++) {
 
     // 메시지 이미지는 로컬에서 불러오기
     const messageImage = document.createElement('img');
-    messageImage.src = `image/message${i}.png`;  // 로컬 파일 경로 설정
+    messageImage.src = `./image/message${i}.png`;  // 로컬 파일 경로 설정
     messageImage.alt = `메시지 ${i}`;
 
     // 메시지Div에 이미지만 추가 (닫기 버튼 제거)
