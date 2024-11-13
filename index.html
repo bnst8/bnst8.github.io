@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>온 우주가 먄을 응원해</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <!-- 로그인 모달 (처음엔 숨김) -->
+    <div class="login-overlay">
+        <div class="login-container">
+            <h1>편지 보기</h1>
+            <form id="login-form">
+                <label for="keyword">당신의 이름을 입력하세요:</label>
+                <input type="text" id="keyword" placeholder="여기에 입력하기" required>
+                <button type="submit">확인</button>
+            </form>
+            <p id="error-message" class="error-message"></p>
+        </div>
+    </div>
+
+    <div class="message-overlay"></div> <!-- 배경 어두운 부분 -->
+    <div class="container">
+        <h2>수고했어 먄<br>로이스의 작은 선물이야</h2>
+        <div class="message-list" id="message-list"></div> <!-- 아이콘을 여기에 동적으로 추가 -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
